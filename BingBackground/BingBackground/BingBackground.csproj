@@ -51,12 +51,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BingBackground.cs" />
+    <Compile Include="Domain\Region.cs" />
+    <Compile Include="PicturePosition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Services\RegionHelper.cs" />
+    <Compile Include="Services\Settings.cs" />
+    <Compile Include="Services\SettingsValues.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
